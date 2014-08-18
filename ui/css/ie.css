@@ -1,0 +1,18 @@
+/* 
+    Document   : ie
+    Created on : Mar 11, 2013, 1:38:39 PM
+    Author     : shabab
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#slider_index{
+    list-style: none;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    left: 800px;
+    
+}
+

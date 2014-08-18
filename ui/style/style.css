@@ -1,0 +1,44 @@
+/* css document */
+
+.mgrid {   
+    width: 100%;       
+    margin: 5px 0 10px 0;   
+    border: solid 1px #465c71;   
+    border-collapse: collapse;   
+}  
+.mgrid td {   
+    padding: 2px;   
+    border: solid 1px #465c71;   
+    color: #000000;
+    font-family: arial;
+	font-size: 11px;
+	height: 25px;   
+	text-align: center;
+}  
+
+.mgrid td a { text-decoration: none;  }  
+.mgrid td a:hover { text-decoration: underline; }  
+
+
+.mgrid th {   
+    padding: 4px 2px;   
+    color: #ffffff;   
+    background: #4b6c9e;   
+    border: solid 1px #465c71;   
+    font-size: 0.9em;  
+    
+}  
+.mgrid .alt { background: #d3d3d3;}  
+.mgrid .pgr { background: #465c71; }  
+.mgrid .pgr table { margin: 5px 0; }  
+.mgrid .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #666;   
+    font-weight: bold;   
+    color: #ffffff;
+    line-height: 12px;   
+	text-align:center;
+ }     
+.mgrid .pgr a { color: #ffffff; text-decoration: none; }  
+.mgrid .pgr a:hover { color: #ffffff; text-decoration: underline; }

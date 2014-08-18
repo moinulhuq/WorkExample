@@ -1,0 +1,11 @@
+/***** Global Elements *****/
+#contactWrapper { width:95%; border:1px solid #cfdede; background:#fdfdfd; margin: 0px auto; }
+#contactWrapper label { float:none; font-size:12px; width:auto; font-weight: bold; margin-bottom: 0px; color: #333333;}
+#contactWrapper label.error { float:none; font-size:12px; width:auto; font-weight: normal; color: #bb3737; background: #cccccc; border: 1px solid #bb3737; margin-top: 0px; padding: 0px;}
+#contactWrapper label.checked { display:none; background: none; border: 0px; margin-top: 0px; padding: 0px; text-indent: -5000px;}
+#contactWrapper em { color: #e50000;}
+#contactWrapper .stage { margin-bottom: 20px;}
+#contactWrapper .requiredNote { color: #333; font-weight: bold;}
+#contactWrapper .success { padding: 0px; background: #f0ffc1; border: 1px solid #819934; margin-bottom: 15px; color: #819934;}
+#contactWrapper .success p { margin: 0px;}
+#contactWrapper input.error { border: 1px solid #bb3737;}

@@ -1,0 +1,495 @@
+/* 
+    document   : style
+    created on : mar 10, 2013, 7:45:09 pm
+    author     : shabab
+    description:
+        purpose of the stylesheet follows.
+*/
+
+body{
+    font-family: helvetica, arial, verdana, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    
+    background-color: #f4f4f4;
+    background-image: url('../img/background_curved2.png');
+    background-repeat: no-repeat;
+	background-position:top center;
+    line-height: 150%;
+}
+
+
+.top-bar{
+    width: 100%;
+    height: 24px;
+    background-color: #44bd3e;
+}
+
+
+.slider{
+    height: 160px;
+    background-size: cover;
+    background-image: url('../img/cmsheader.jpg');
+	background-position: bottom;
+
+/*    -webkit-transition: all 1s ease-out;   chrome 1-25, safari 3.2+ 
+     -moz-transition: all 1s ease-out;   firefox 4-15 
+       -o-transition: all 1s ease-out;   opera 10.50–12.00 
+          transition: all 1s ease-out;   chrome 26, firefox 16+, ie 10+, opera 12.50+ */
+
+}
+
+#slider_index{
+    list-style: none;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    top: 100px;
+    left: 800px;
+    
+}
+#slider_index li > a{
+    text-decoration: none;
+    border: none;
+}
+#slider_index li{
+    margin: 2px;
+    display: inline;
+}
+
+#slider_index li  img{
+    text-decoration: none;
+    border: none;
+}
+#logo_container{
+    height: 107px;
+    min-width: 68px;
+    position: relative;
+    top: 15px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    left: 15px;
+}
+#page_title{
+    padding-left: 80px;
+    color: #44bd3e;
+}
+
+#header_tools_container{
+    margin-left: 60%;
+    margin-top: 20px;
+    width: 40%;  
+    vertical-align: top;
+}
+#language_selecter{
+    margin-left: 30px;
+    border: none;
+    margin-right: 0px;
+    width: 110px;
+}
+
+#search_wrapper{
+    background-image:url('../img/looking_glass.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    width:100%;
+    position:relative;
+}
+
+#search_field {
+    border: none;
+    background-image:url('../img/looking_glass.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    width:100%;
+    height:18px;
+}
+
+#search_button {
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:18px;
+}
+
+
+
+#header_tools_container a{
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+.wrapper{
+    background-color: white;
+    min-height: 700px;
+}
+.footer{
+    width: 100%;
+    background-color: #c1e8af;
+    height: 100px;
+    background: -moz-linear-gradient(top, #c1e8af 0%, #fff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c1e8af), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, #c1e8af 0%, #fff 100%);
+    background: -o-linear-gradient(top, #c1e8af 0%, #fff 100%);
+    background: -ms-linear-gradient(top, #c1e8af 0%, #fff 100%);
+    background: linear-gradient(to bottom, #c1e8af 0%, #fff 100%);
+}
+
+.footer-height{
+    min-height: 20px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    min-height: 20px;
+}
+
+#copyright{
+    width: 1000px;
+    float: left;
+    color: green;
+	text-align:center;
+    font-weight: bold;
+}
+#footer-links{
+    float: right;
+    /*    list-style: none;*/
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+}
+#footer-links li
+{
+    padding: 5px;
+    padding-left: 6px;
+    border-left: 1px solid green;
+    display: inline;
+}
+#footer-links li:first-child{
+    border: none;
+}
+
+#footer-links a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+
+}
+
+
+.nopadleft{
+    margin-left: 0px;
+    padding-left: 5px;
+}
+.nopadright{
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+.wrapper > h4{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.sidebar{
+    height: available;
+    background-color: white;    
+}
+
+.sidebar > h3{
+    color: white;
+    background-color: #44bd3e;
+    padding: 5px 0px;
+    text-indent: 5px;
+    border: 1px solid #399a3a;
+    border-radius: 4px;
+    margin: 5px;
+    width: 170px;
+}
+
+.sidebar > h3.inverse{
+    color: green;
+    background-color: white;
+    padding: 5px 0px;
+    text-indent: 5px;
+    border: none;
+    background-image: url('../img/greygradsmall.png');
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    margin: 5px;
+    width: 170px;
+}
+
+.sidebar > p{
+    max-width: 150px;    
+    padding: 0px 15px 15px 15px;
+}
+
+.menu-padding{
+    min-height: 20px;
+    background-color: white;
+}
+
+
+/* scroller box */
+
+/* scoller box */
+
+#cssmenu img{
+    padding-top: 5px;
+    margin-bottom: -9px;
+    border: none;
+}
+#cssmenu li{  
+    min-width: 90px;
+    border-right: #222 1px solid;  
+}
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+    min-width: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#cssmenu {
+    height: 35px;
+    background: #d7d7d7;
+    background-image: url('../img/menuback.png');
+    background-repeat: repeat-x;
+    border-bottom: 2px solid #71b00c;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#cssmenu a {
+    background: #d7d7d7;
+    background-image: url('../img/menuback.png');
+    color: #222;
+    font-weight: bold;
+    display: inline-block;
+    font-family: helvetica, arial, verdana, sans-serif;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 0 20px;
+    text-decoration: none;
+    min-width: 90px;
+    text-align: center;
+}
+#cssmenu ul {
+    list-style: none;
+}
+#cssmenu > ul {
+    float: left;
+}
+#cssmenu > ul > li {
+    float: left;
+
+}
+#cssmenu > ul > li:hover:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #71b00c;
+    margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+    border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu > ul > li:last-child > a {
+    border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a {
+
+    background: #d0d0d0;
+    background: -moz-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #d0d0d0));
+    background: -webkit-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -o-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -ms-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: linear-gradient(to bottom, #fdfdfd 0%, #d0d0d0 100%);
+}
+#cssmenu > ul > li:hover > a {
+    background: #d0d0d0;
+    background: -moz-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #d0d0d0));
+    background: -webkit-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -o-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: -ms-linear-gradient(top, #fdfdfd 0%, #d0d0d0 100%);
+    background: linear-gradient(to bottom, #fdfdfd 0%, #d0d0d0 100%);
+
+}
+#cssmenu .has-sub {
+    z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+    display: block;
+}
+#cssmenu .has-sub ul {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left: 0;
+}
+#cssmenu .has-sub ul li {
+    *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+    background: #44bd3e;
+    border-bottom: 1px dotted #aad06d;
+    filter: none;
+    font-size: 11px;
+    display: block;
+    line-height: 120%;
+    padding: 10px;
+}
+#cssmenu .has-sub ul li:hover a {
+    background: #34a936;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+    display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+#cssmenu .has-sub .has-sub ul li a {
+    background: #528009;
+
+    border-bottom: 1px dotted #97b36b;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+    background: #345105;
+}
+
+
+
+/*flyout*/
+/* starter css for flyout menu */
+#cssflyout {
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+
+#cssflyout ul, #cssflyout li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cssflyout ul {
+    position: relative;
+    z-index: 597;
+    float: left; }
+
+#cssflyout ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1.5em;
+    vertical-align: middle; }
+
+#cssflyout ul li.hover,
+#cssflyout ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default; }
+
+#cssflyout ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%; }
+
+#cssflyout ul ul li {
+    float: none; 
+    border: 1px solid #eee;
+    
+    background-color: white;
+}
+
+#cssflyout ul ul, #cssflyout ul ul ul {
+    top: -1px;
+    left: 99%; }
+
+#cssflyout ul li:hover > ul {
+    visibility: visible; }
+
+#cssflyout ul li {
+    float: none; }
+
+#cssflyout a {
+    display: block; }
+
+/* custom css styles */
+#cssflyout {
+    font-family: 'segoe ui', arial, sans-serif;
+    font-size: 11px; }
+#cssflyout:after, #cssflyout ul:after {
+    content: '';
+    display: block;
+    clear: both; }
+#cssflyout ul {
+    padding: 4px;
+    width: 170px; }
+#cssflyout ul li {
+    color: #000;
+    position: relative; 
+}
+#cssflyout ul li.hover, #cssflyout ul li:hover {
+    background: #44bd3e;
+    color: #fff; }
+#cssflyout ul li.hover > a, #cssflyout ul li:hover > a {
+    color: #fff;
+    border: 1px solid #327e04; }
+#cssflyout ul ul {
+    width: 150px; }
+#cssflyout a {
+    border: 1px solid transparent;
+    padding: 3px 10px; }
+#cssflyout a:link, #cssflyout a:visited {
+    color: #000;
+    text-decoration: none; }
+#cssflyout a:hover {
+    background: #44bd3e;
+    color: #fff; }
+#cssflyout a:active {
+    color: #ffa500; }
+#cssflyout .has-sub:hover > a:after, #cssflyout .has-sub.hover > a:after {
+    border-color: transparent transparent transparent #fff;
+}
+#cssflyout .has-sub > a:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    border-color: transparent transparent transparent #808080;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    margin-top: -4px;
+    -webkit-transform: rotate(360deg); }
